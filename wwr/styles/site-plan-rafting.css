@@ -8,8 +8,8 @@ Fonts are separated by a & */
   /* change the values below to your colors from your palette */
   --primary-color: #141213   ;
   --secondary-color: #edce32 ;
-  --accent1-color: #000000;
-  --accent2-color: hsl(189, 8%, 67%);
+  --accent1-color: #4354b3;
+  --accent2-color: hsl(189, 31%, 65%);
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Lexend Deca', sans-serif";
