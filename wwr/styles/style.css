@@ -1,0 +1,68 @@
+div {
+    max-width: 1600px;
+    text-align: center;
+    margin: 0 auto;
+}
+.river-card, .camping-card, .rapids-card {
+    text-align: center;
+    margin: 0 auto;
+}
+nav  {
+    background-color: #1e76e9ef;
+    padding: 10px;
+}
+#background {
+    height: 725px;
+    background-color: gray;
+}
+body {
+    
+}
+nav a, footer a,.msg a { 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.book, .join {
+    text-decoration: none;
+}
+header nav a {
+    margin: 10ex;
+}
+#hero-img {
+    width: 100%;
+}
+.home-grid {
+    display: block;
+    margin-top: 0%;
+}
+nav a:hover, .msg a:hover{
+    background-color: rgba(255, 255, 255, .6);
+    color: black;
+}
+
+.icon {
+    width: 80px;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.msg {
+    background-color: #1e76e9ef;
+    margin: 0 auto;
+}
+footer {
+    background-color: gray;
+    margin: 0;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+footer p {
+    font-size: 1.4em;
+}
+footer div {
+    text-align: left;
+}
