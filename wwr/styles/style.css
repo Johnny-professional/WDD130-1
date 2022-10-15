@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Chela+One&family=Fredoka+One&family=Lexend+Deca:wght@800&family=Open+Sans:wght@400;800&family=Sansita+Swashed:wght@400;800;900&family=Silkscreen&display=swap');
 div {
     max-width: 1600px;
     text-align: center;
@@ -5,8 +6,17 @@ div {
 }
 .river-card, .camping-card, .rapids-card {
     text-align: center;
-    margin: 0 auto;
+    margin: 150px;
+    
 }
+#logo-link {
+    padding-top: 10px;
+}
+.card-img {
+    border: 10px solid rgb(32, 15, 119);
+    border-radius: 10px;
+}
+
 nav  {
     background-color: #1e76e9ef;
     padding: 10px;
@@ -14,21 +24,38 @@ nav  {
 #background {
     height: 725px;
     background-color: rgb(155, 153, 153);
+    margin-bottom: 50px;
+}
+main section img {
+    box-sizing: border-box;
 }
 body {
     color: rgb(49, 48, 51)
+    
 }
-nav a, footer a,.msg a { 
+nav a, footer a,.msg a, .book { 
     text-align: center;
     text-decoration: none;
     color: white;
+    padding: 10px;
 }
 .msg {
     text-align: center;
 }
-.book, .join {
-    text-decoration: none;
+.msg p {
+    font-size: 2em;
+    line-height: 1.5em;
+    margin-top: 15px;
+    padding-bottom: 15px;
 }
+.book, .join {
+    padding: auto;
+    background-color: rgb(32, 15, 119);
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
 header nav a {
     margin: 10ex;
 }
@@ -43,9 +70,24 @@ nav a:hover, .msg a:hover{
     background-color: rgba(255, 255, 255, .6);
     color: black;
 }
-
+.home-title {
+    color:  rgb(213, 118, 61);
+    /*font-family: 'Sansita Swashed', cursive;*/
+    font-family: 'Fasthand', cursive;
+    font-size: 3em;
+}
+#hero-msg {
+    margin-top: -250px;
+    margin-bottom: 120px;
+}
+.msg h2 {
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 2em;
+}
 .icon {
     width: 80px;
+    padding: 10px, 0px;
 }
 
 html, body {
@@ -54,12 +96,14 @@ html, body {
 }
 .msg {
     background-color: #1e76e9ef;
-    margin: 0 auto;
+    margin-top: 100px;
+    padding: 35px;
 }
 
 footer {
     background-color: gray;
-    margin: 0;
+    margin-top: 150px;
+    padding: 25px, 50px;
 }
 footer p a:hover {
     text-decoration: underline;
