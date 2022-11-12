@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: grid;
+    grid-template-columns: 200px auto;
+    /* justify-content: start; */
+}
+#logo #logo_img {
+    width: 200px;
+    height: auto;
+    border-radius: 50px ;
+}
+nav {
+    display: flex;
+    background-color: rgba(255, 255, 255, .6);
+    /* justify-self: start; */
+    border-radius:20px;
+}
+nav a {
+    align-self: flex-start;
+    font-size: 30px;
+    margin: 0 50px;
+    color: gray;
+}
+
+nav a:hover {
+    background-color: ghostwhite;
+    color: black;
+    
+}
+section {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    margin-top: 30px;
+}
+
+.promo{
+    width: 800px;
+    height: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #6f7364; 
+}
+.promo:hover {
+    transform: scale(1.1);
+}
+div p {
+    background-color: rgba(255, 255, 255, .6);
+    color: red;
+    font-family: 'Tangerine', cursive;
+    font-size: 20px;
+}
+div p:hover {
+    transform: scale(1.1);
+}
+
+
+footer {
+    display: flex;
+    background-color: gray;
+    margin-top: 30px;
+}
+footer p {
+    align-self: center;
+}
+
+footer a {
+    margin: 0 30px;
+}
