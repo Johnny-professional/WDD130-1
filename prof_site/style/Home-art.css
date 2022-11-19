@@ -116,6 +116,7 @@ footer a {
     grid-column: 2/3;
     grid-row: 1/2;
 }
+
 .main section {
     display: block;
 }
@@ -123,6 +124,15 @@ footer a {
     width: 400px;
     height: auto;
     border-radius: 50px;
+    box-shadow: 5px 5px 10px #6f7364
+    
+}
+#link p a {
+    color: whitesmoke;
+}
+#link p a:hover {
+    background-color: rgba(255, 255, 255, .6);
+    color: black;
 }
 
 
