@@ -8,6 +8,12 @@ header {
     grid-template-columns: 200px auto;
     /* justify-content: start; */
 }
+#logo nav { 
+    position: fixed;
+    justify-self: center;
+}
+
+
 #logo #logo_img {
     width: 200px;
     height: auto;
