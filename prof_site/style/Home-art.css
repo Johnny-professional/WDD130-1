@@ -3,6 +3,9 @@
     margin: 0;
     padding: 0;
 }
+nav {
+    display: flex;
+}
 header {
     display: grid;
     grid-template-columns: 200px auto;
@@ -12,7 +15,9 @@ header {
     position: fixed;
     justify-self: center;
 }
-
+.main h2, .shop h2, .wedding h2 {
+    text-align: center;
+}
 
 #logo #logo_img {
     width: 200px;
