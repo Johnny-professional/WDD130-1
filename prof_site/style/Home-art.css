@@ -81,6 +81,11 @@ footer a {
     margin: 0 30px;
 }
 
+
+
+
+
+
 /* This style is for the home page */
 
 #lamba {
@@ -148,6 +153,10 @@ footer a {
 }
 
 
+
+
+
+
 /* this is the style css for page 2 */
 
 .raw {
@@ -184,6 +193,11 @@ footer a {
 .raw-box1 h3:hover ,.raw-box2 h3:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
 
 /* Contact us art malagasy page */
 form {
@@ -242,6 +256,26 @@ textarea {
     padding: .5em;
     display: none;
 }
+
+.pic {
+    width: 90%;
+    padding: 20px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 1s;
+}
+.pic-box img {
+    width: 250px;
+    margin: 0 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    border-radius: 10px;
+}
+.pic-box:hover{
+    transform: scale(1.3);
+}
+
 
 
 
