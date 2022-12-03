@@ -42,17 +42,31 @@ nav a:hover {
     color: black;
     
 }
-section {
+/* section {
     display: grid;
     grid-template-columns: 1fr auto;
     margin-top: 30px;
+} */
+.main {
+    display: flex
+    
+}
+.photo1 {
+    display: flex;
+
+}
+.photo2 {
+    display: flex;
+
 }
 
 .promo{
     width: 800px;
     height: auto;
     border-radius: 50px;
-    box-shadow: 5px 5px 10px #6f7364; 
+    box-shadow: 5px 5px 10px #6f7364;
+    padding: 1px;
+    margin: 20px;
 }
 .promo:hover {
     transform: scale(1.1);
@@ -62,6 +76,9 @@ div p {
     color: red;
     font-family: 'Tangerine', cursive;
     font-size: 20px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 div p:hover {
     transform: scale(1.1);
