@@ -210,6 +210,9 @@ footer a {
 .raw-box1 h3:hover ,.raw-box2 h3:hover {
     transform: scale(1.1);
 }
+.raw h3{
+    font-family: 'Tangerine', cursive;
+}
 
 
 
@@ -288,6 +291,7 @@ textarea {
     margin: 0 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, .1);
     border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
 }
 .pic-box:hover{
     transform: scale(1.3);
